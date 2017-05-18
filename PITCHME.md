@@ -43,9 +43,14 @@ Mai 2017
 - <span class="fragment">Plateformes supportées</span>
 
 +++
-### Exemple: Chef
+|Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|Puppet|**|***|***|agent|Manifest|Ruby|oui|RubyDSL|
+|Chef|***|***|***|agent|Recipe|Ruby,Erlang|oui|RubyDSL|
+|Ansible|****|***|***|no-agent|Playbook|Python,PowerShell|oui|YAML|
+|Saltstack|***|***|***|agent|State|Python|oui|YAML|
+|OpenShift|****|***|****|no-agent|/|/|non|/|
 
-![Logo](chef_repr.png)
 ---
 
 

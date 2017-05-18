@@ -43,6 +43,16 @@ Mai 2017
 - <span class="fragment">Plateformes supportées</span>
 
 +++
+<table>
+  <tr>
+    <th>Solutions</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <th>test</th>
+    <th>test</th>
++++
+
 |Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Puppet|**|***|***|agent|Manifest|Ruby|oui|RubyDSL|

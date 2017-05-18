@@ -46,7 +46,14 @@ Mai 2017
 <table>
   <tr>
     <th>Solutions</th>
-    <th>Test</th>
+    <th>Facilité d'installation</th>
+    <th>Facilité d'utilisation</th>
+    <th>Scalable</th>
+    <th>Archicteture</th>
+    <th>Repositeries</th>
+    <th>Ecrit en</th>
+    <th>OpenSource?</th>
+    <th>Language Repo</th>
   </tr>
   <tr>
     <th>test</th>

@@ -19,11 +19,11 @@ Mai 2017
 ---
 
 ### La problématique ?
-<span class="fragment"> - L'installation et la configuration de serveurs ou de machines prend du temps</span>
+- <span class="fragment"> L'installation et la configuration de serveurs ou de machines prend du temps
 
-![Logo](giphy.gif)
+![Logo](giphy.gif)</span>
 
-+++
+---
 
 ### Les solutions
 
@@ -34,6 +34,17 @@ Mai 2017
 - <span class="fragment">OpenShift</span>
 
 +++
+### Puppet
++++
+### Chef
++++
+### Ansible
++++
+### SaltStack
++++
+### OpenShift 
+
+---
 
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
@@ -59,7 +70,51 @@ Mai 2017
   </tr>
   <tr>
     <td>Puppet</td>
-    <td>**</td>
+    <td>***</td>
+    <td>***</td>
+    <td>***</td>
+    <td>agent</td>
+    <td>Forge</td>
+    <td>Ruby</td>
+    <td>Manifest</td>
+    <td>RudyDSL</td>
+  </tr>
+    <tr>
+    <td>Chef</td>
+    <td>***</td>
+    <td>***</td>
+    <td>***</td>
+    <td>agent</td>
+    <td>Forge</td>
+    <td>Ruby</td>
+    <td>Manifest</td>
+    <td>RudyDSL</td>
+  </tr>
+    <tr>
+    <td>Ansible</td>
+    <td>***</td>
+    <td>***</td>
+    <td>***</td>
+    <td>agent</td>
+    <td>Forge</td>
+    <td>Ruby</td>
+    <td>Manifest</td>
+    <td>RudyDSL</td>
+  </tr>
+    <tr>
+    <td>SaltStack</td>
+    <td>***</td>
+    <td>***</td>
+    <td>***</td>
+    <td>agent</td>
+    <td>Forge</td>
+    <td>Ruby</td>
+    <td>Manifest</td>
+    <td>RudyDSL</td>
+  </tr>
+    <tr>
+    <td>OpenShift</td>
+    <td>***</td>
     <td>***</td>
     <td>***</td>
     <td>agent</td>
@@ -70,19 +125,6 @@ Mai 2017
   </tr>
 </table>
 +++
-<div style="font-size: 50%;">
-|Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Puppet|**|***|***|agent|Manifest|Ruby|oui|RubyDSL|
-|Chef|***|***|***|agent|Recipe|Ruby,Erlang|oui|RubyDSL|
-|Ansible|****|***|***|no-agent|Playbook|Python,PowerShell|oui|YAML|
-|Saltstack|***|***|***|agent|State|Python|oui|YAML|
-|OpenShift|****|***|****|no-agent|/|/|non|/|
-</div>
+
 ---
 
-
-### Conclusion 
-
-- <span class="fragment">Autonomie</span>
-- <span class="fragment">Curiosité</span>

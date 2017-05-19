@@ -14,14 +14,13 @@ Mai 2017
  - <span class ="fragment">Présentation de la problématique</span>  
  - <span class ="fragment">Présentation des solutions</span>
  - <span class ="fragment">Analyse comparative des solutions </span>
- - <span class ="fragment"> Conclusion </span>
 
 ---
 
 ### La problématique ?
-- <span class="fragment"> L'installation et la configuration de serveurs ou de machines prend du temps
+- <span class="fragment"> L'installation et la configuration de serveurs ou de machines prend du temps </span>
 
-![Logo](giphy.gif)</span>
+<span class ="fragment">![Logo](giphy.gif)</span>
 
 ---
 

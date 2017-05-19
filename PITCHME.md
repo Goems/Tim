@@ -20,7 +20,8 @@ Mai 2017
 ### La problématique ?
 - <span class="fragment"> L'installation et la configuration de serveurs ou de machines prend du temps </span>
 
-<span class ="fragment">![Image](giphy.gif)</span>
++++
+![Image](giphy.gif)
 
 ---
 

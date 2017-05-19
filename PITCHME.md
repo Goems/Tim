@@ -68,7 +68,7 @@ Mai 2017
   </tr>
 </table>
 +++
-<table style="font-size: 50%;">
+<div style="font-size: 50%;">
 |Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Puppet|**|***|***|agent|Manifest|Ruby|oui|RubyDSL|
@@ -76,7 +76,7 @@ Mai 2017
 |Ansible|****|***|***|no-agent|Playbook|Python,PowerShell|oui|YAML|
 |Saltstack|***|***|***|agent|State|Python|oui|YAML|
 |OpenShift|****|***|****|no-agent|/|/|non|/|
-</table>
+</div>
 ---
 
 

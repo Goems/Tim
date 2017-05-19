@@ -35,7 +35,7 @@ Mai 2017
 
 ### Les critères de comparaison 
 - <span class="fragment">Facilité d'installation</span>
-- <span class="fragment">facilité d'utilisation</span>
+- <span class="fragment">Facilité d'utilisation</span>
 - <span class="fragment">Scalable</span>
 - <span class="fragment">Architecture</span>
 - <span class="fragment">Repositerie</span>
@@ -58,6 +58,8 @@ Mai 2017
   <tr>
     <th>test</th>
     <th>test</th>
+  </tr>
+</table>
 +++
 
 |Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|

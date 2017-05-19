@@ -52,23 +52,23 @@ Mai 2017
     <th>Archicteture</th>
     <th>Repositeries</th>
     <th>Ecrit en</th>
-    <th>OpenSource?</th>
-    <th>Language Repo</th>
+    <th>Fichier de travail</th>
+    <th>Language fichier </th>
   </tr>
   <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
+    <td>Puppet</td>
+    <td>**</td>
+    <td>***</td>
+    <td>***</td>
+    <td>agent</td>
+    <td>Forge</td>
+    <td>Ruby</td>
+    <td>Manifest</td>
+    <td>RudyDSL</td>
   </tr>
 </table>
 +++
-
+<table style="font-size: 50%;">
 |Solutions|Facilité d'installation|Facilité d'utilisation|Scalable|Archicteture|repositories|Ecrit en |OpenSource?|Language Repo|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Puppet|**|***|***|agent|Manifest|Ruby|oui|RubyDSL|
@@ -76,7 +76,7 @@ Mai 2017
 |Ansible|****|***|***|no-agent|Playbook|Python,PowerShell|oui|YAML|
 |Saltstack|***|***|***|agent|State|Python|oui|YAML|
 |OpenShift|****|***|****|no-agent|/|/|non|/|
-
+</table>
 ---
 
 

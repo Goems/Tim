@@ -43,7 +43,7 @@ Mai 2017
 - <span class="fragment">Plateformes supportées</span>
 
 +++
-<table>
+<table style="font-size: 50%;">
   <tr>
     <th>Solutions</th>
     <th>Facilité d'installation</th>
@@ -56,8 +56,15 @@ Mai 2017
     <th>Language Repo</th>
   </tr>
   <tr>
-    <th>test</th>
-    <th>test</th>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
   </tr>
 </table>
 +++

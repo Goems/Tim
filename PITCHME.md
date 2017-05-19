@@ -71,8 +71,8 @@ Mai 2017
   </tr>
   <tr>
     <td>Puppet</td>
-    <td>/c2 a4 °°°°</td>
-    <td>***</td>
+    <td>°°°°</td>
+    <td>°°°°</td>
     <td>***</td>
     <td>agent</td>
     <td>Forge</td>

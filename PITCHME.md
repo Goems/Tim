@@ -41,6 +41,7 @@ Mai 2017
 - <span class="fragment">2003</span>
 - <span class="fragment">Ruby</span>
 - <span class="fragment">Serveur/Client</span>
+- <span class="fragment">SSL</span>
 - <span class="fragment">Manifest en RubyDSL</span>
 - <span class="fragment">Apache 2.0</span>
 +++
@@ -57,17 +58,12 @@ Mai 2017
     <td>Yes</td>
   </tr>
   <tr>
-    <td>Permision des utilisateur</td>
+    <td>Permision des utilisateurs</td>
     <td>No</td>
     <td>Yes</td>
   </tr>
   <tr>
-    <td>Management des Noeud</td>
-    <td>No</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>prix</td>
+    <td>Prix</td>
     <td>0 euro</td>
     <td>~100 euro standard
     ~150 euro prenium</td>
@@ -76,10 +72,36 @@ Mai 2017
 
 +++
 ### Chef
+- <span class="fragment">Opscode</span>
+- <span class="fragment">2009</span>
+- <span class="fragment">Ruby</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">SSH</span>
+- <span class="fragment">Recipes en RubyDSL</span>
+- <span class="fragment">Apache 2.0</span>
++++
+### Chef
+![Image](chef_repr.png)
+
 +++
 ### Ansible
+- <span class="fragment">Ansible/Red Hat</span>
+- <span class="fragment">2012</span>
+- <span class="fragment">Python</span>
+- <span class="fragment">Client</span>
+- <span class="fragment">SSH</span>
+- <span class="fragment">Playbook en YAML</span>
+- <span class="fragment">GNU</span>
++++
+### Ansible Tower
 +++
 ### SaltStack
+- <span class="fragment">Tom Hatch</span>
+- <span class="fragment">2011</span>
+- <span class="fragment">Python</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">State en YAML </span>
+- <span class="fragment">Apache 2.0</span>
 +++
 ### Virtualisation Vs Conteneurs
 
@@ -107,6 +129,7 @@ Mai 2017
     <th>Facilité d'utilisation</th>
     <th>Scalable</th>
     <th>Archicteture</th>
+    <th>Licence</th>
     <th>Repositeries</th>
     <th>Ecrit en</th>
     <th>Fichier de travail</th>
@@ -114,10 +137,11 @@ Mai 2017
   </tr>
   <tr>
     <td>Puppet</td>
-    <td>°°°°</td>
-    <td>°°°°</td>
-    <td>***</td>
-    <td>agent</td>
+    <td>°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+    <td>Apache 2.0</td>
     <td>Forge</td>
     <td>Ruby</td>
     <td>Manifest</td>
@@ -125,24 +149,26 @@ Mai 2017
   </tr>
     <tr>
     <td>Chef</td>
-    <td>***</td>
-    <td>***</td>
-    <td>***</td>
-    <td>agent</td>
-    <td>Forge</td>
-    <td>Ruby</td>
-    <td>Manifest</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+    <td>Apache 2.0</td>
+    <td>Supermarket</td>
+    <td>Ruby, Erlang</td>
+    <td>Recipe</td>
     <td>RudyDSL</td>
   </tr>
     <tr>
     <td>Ansible</td>
-    <td>***</td>
-    <td>***</td>
-    <td>***</td>
-    <td>agent</td>
-    <td>Forge</td>
-    <td>Ruby</td>
-    <td>Manifest</td>
+    <td>°°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Client</td>
+    <td>GNU</td>
+    <td>Galaxy</td>
+    <td>Python, PowerShell</td>
+    <td>Playbook</td>
     <td>RudyDSL</td>
   </tr>
     <tr>
@@ -150,25 +176,25 @@ Mai 2017
     <td>***</td>
     <td>***</td>
     <td>***</td>
-    <td>agent</td>
-    <td>Forge</td>
-    <td>Ruby</td>
-    <td>Manifest</td>
-    <td>RudyDSL</td>
+    <td>Serveur/Client</td>
+    <td>Apache 2.0</td>
+    <td>Project</td>
+    <td>Python</td>
+    <td>State</td>
+    <td>YAML</td>
   </tr>
     <tr>
     <td>OpenShift</td>
     <td>***</td>
     <td>***</td>
     <td>***</td>
-    <td>agent</td>
-    <td>Forge</td>
-    <td>Ruby</td>
-    <td>Manifest</td>
-    <td>RudyDSL</td>
+    <td>Serveur</td>
+    <td>Apache 2.0</td>
+    <td>Docker Hub</td>
+    <td>/</td>
+    <td>Dockerfile</td>
+    <td>DSL</td>
   </tr>
 </table>
-+++
 
----
 

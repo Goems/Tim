@@ -69,14 +69,9 @@ Mai 2017
   <tr>
     <td>prix</td>
     <td>0 euro</td>
-    <td>~100 euro pour le standard
-    ~150 euro pour le prenium</td>
+    <td>~100 euro standard
+    ~150 euro prenium</td>
   </tr>
-  <tr>
-    <td>OpenShift</td>
-    <td>***</td>
-  </tr>
-  
 </table>
 
 +++
@@ -88,7 +83,7 @@ Mai 2017
 +++
 ### Virtualisation Vs Conteneurs
 
-<span class="fragment">![Image](CaptureDocker1.png)</span>
+![Image](CaptureDocker1.png)
 
 +++
 ### OpenShift 

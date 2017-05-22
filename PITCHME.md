@@ -36,12 +36,60 @@ Mai 2017
 
 +++
 ### Puppet
+
+- <span class="fragment">Puppet Labs</span>
+- <span class="fragment">2003</span>
+- <span class="fragment">Ruby</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">Manifest en RubyDSL</span>
+- <span class="fragment">Apache 2.0</span>
++++
+#### OpenSource vs Entreprise
+<table style="font-size: 50%;">
+  <tr>
+    <th></th>
+    <th>OpenSource</th>
+    <th>Entreprise</th>
+  </tr>
+  <tr>
+    <td>Interface graphique</td>
+    <td>No</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Permision des utilisateur</td>
+    <td>No</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Management des Noeud</td>
+    <td>No</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>prix</td>
+    <td>0 euro</td>
+    <td>~100 euro pour le standard
+    ~150 euro pour le prenium</td>
+  </tr>
+  <tr>
+    <td>OpenShift</td>
+    <td>***</td>
+  </tr>
+  
+</table>
+
 +++
 ### Chef
 +++
 ### Ansible
 +++
 ### SaltStack
++++
+### Virtualisation Vs Conteneurs
+
+<span class="fragment">![Image](CaptureDocker1.png)</span>
+
 +++
 ### OpenShift 
 

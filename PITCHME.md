@@ -94,6 +94,7 @@ Mai 2017
 - <span class="fragment">GNU</span>
 +++
 ### Ansible Tower
+![Image](tower-screenshot-blog2.png)
 +++
 ### SaltStack
 - <span class="fragment">Tom Hatch</span>
@@ -173,9 +174,9 @@ Mai 2017
   </tr>
     <tr>
     <td>SaltStack</td>
-    <td>***</td>
-    <td>***</td>
-    <td>***</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
     <td>Serveur/Client</td>
     <td>Apache 2.0</td>
     <td>Project</td>

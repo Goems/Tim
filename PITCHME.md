@@ -174,7 +174,7 @@ Mai 2017
     <td>Galaxy</td>
     <td>Python, PowerShell</td>
     <td>Playbook</td>
-    <td>RudyDSL</td>
+    <td>YAML</td>
   </tr>
     <tr>
     <td>SaltStack</td>

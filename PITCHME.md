@@ -123,7 +123,7 @@ Mai 2017
 - <span class="fragment">Plateformes supportées</span>
 
 +++
-<table style="font-size: 50%;">
+<table style="font-size: 40%;">
   <tr>
     <th>Solutions</th>
     <th>Facilité d'installation</th>
@@ -186,9 +186,9 @@ Mai 2017
   </tr>
     <tr>
     <td>OpenShift</td>
-    <td>***</td>
-    <td>***</td>
-    <td>***</td>
+    <td>°°°°</td>
+    <td>°°°</td>
+    <td>°°°°</td>
     <td>Serveur</td>
     <td>Apache 2.0</td>
     <td>Docker Hub</td>

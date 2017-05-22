@@ -25,7 +25,9 @@ Mai 2017
 ![Image](giphy.gif)
 
 ---
+### Les solutions 
 
+---
 ### Les solutions
 
 - <span class="fragment">Puppet</span>
@@ -110,6 +112,8 @@ Mai 2017
 
 +++
 ### OpenShift 
+
+
 
 ---
 

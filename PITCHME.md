@@ -101,11 +101,52 @@ Mai 2017
 - <span class="fragment">Facilité d'utilisation</span>
 - <span class="fragment">Scalable</span>
 - <span class="fragment">Architecture</span>
-- <span class="fragment">Repositerie</span>
-- <span class="fragment">Langage</span>
-- <span class="fragment">Fichier de travail</span>
-
 +++
+
+<table style="font-size: 40%;">
+  <tr>
+    <th>Solutions</th>
+    <th>Facilité d'installation</th>
+    <th>Facilité d'utilisation</th>
+    <th>Scalable</th>
+    <th>Archicteture</th>
+  </tr>
+  <tr>
+    <td>Puppet</td>
+    <td>°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+    <tr>
+    <td>Chef</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+    <tr>
+    <td>Ansible</td>
+    <td>°°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Client</td>
+  </tr>
+    <tr>
+    <td>SaltStack</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>°°°</td>
+    <td>Serveur/Client</td>
+  </tr>
+    <tr>
+    <td>OpenShift</td>
+    <td>°°°°</td>
+    <td>°°°°</td>
+    <td>°°°°</td>
+    <td>Serveur</td>
+  </tr>
+</table>
 
 
 +++

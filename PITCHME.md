@@ -26,8 +26,8 @@ Mai 2017
 ---
 ### Les solutions
 
-- <span class="fragment">Puppet</span>
 - <span class="fragment">Chef</span>
+- <span class="fragment">Puppet</span>
 - <span class="fragment">Ansible</span>
 - <span class="fragment">Saltstack</span>
 - <span class="fragment">OpenShift</span>
@@ -38,8 +38,29 @@ Mai 2017
 - <span class="fragment">2009</span>
 - <span class="fragment">Ruby</span>
 - <span class="fragment">Serveur/Client</span>
-- <span class="fragment">Recipes en RubyDSL</span>
+- <span class="fragment">3 modes de fonctionnement</span>
+- <span class="fragment">Cookbooks</span>
 - <span class="fragment">Apache 2.0</span>
++++
+### Cookbooks
+- <span class="fragment">Dossier</span>
+- <span class="fragment">Recettes</span>
+- <span class="fragment">Templates</span>
+
++++
+### Recipes
+
+```ruby
+package  = "vim"
+
+execute "apt-get update" do
+ command "apt-get update"
+end
+
+apt_package package do
+ action :install
+end
+```
 +++
 ### Chef
 <img class="plain" data-src="chef_repr.png"/>
@@ -62,7 +83,7 @@ Mai 2017
 - <span class="fragment">Python</span>
 - <span class="fragment">Client</span>
 - <span class="fragment">Playbook en YAML</span>
-- <span class="fragment">GNU</span>
+- <span class="fragment">GPL-3.0</span>
 +++
 ### Ansible Tower
 <img class="plain" data-src="tower-screenshot-blog2.png"/>

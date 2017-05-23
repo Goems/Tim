@@ -21,8 +21,7 @@ Mai 2017
 - <span class="fragment"> L'installation, la configuration et la maintenances des serveurs et/ou machine est très complexe </span>
 - <span class="fragment"> Le déploiment d'application est compliquée </span>
 +++
-
-![Image](giphy.gif)
+<img class="plain" data-src="giphy.gif"/>
 
 ---
 ### Les solutions
@@ -43,7 +42,7 @@ Mai 2017
 - <span class="fragment">Apache 2.0</span>
 +++
 ### Chef
-![Image](chef_repr.png)
+<img class="plain" data-src="chef_repr.png"/>
 
 +++
 ### Puppet
@@ -66,7 +65,7 @@ Mai 2017
 - <span class="fragment">GNU</span>
 +++
 ### Ansible Tower
-![Image](tower-screenshot-blog2.png)
+<img class="plain" data-src="tower-screenshot-blog2.png"/>
 +++
 ### SaltStack
 - <span class="fragment">Tom Hatch</span>
@@ -86,9 +85,6 @@ Mai 2017
 ### Virtualisation Vs Conteneurs
 
 <img class="plain" data-src="CaptureDocker1.png"/>
-+++
-!Image(CaptureDocker1.png)
-
 +++
 ### OpenShift V3 
 - <span class="fragment">Orchestration de conteneur</span>

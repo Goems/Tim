@@ -18,14 +18,11 @@ Mai 2017
 ---
 
 ### La problématique ?
-- <span class="fragment"> L'installation et la configuration de serveurs ou de machines prend du temps </span>
-
+- <span class="fragment"> L'installation, la configuration et la maintenances des serveurs et/ou machine est très complexe </span>
+- <span class="fragment"> Le déploiment d'application est compliquée </span>
 +++
 
 ![Image](giphy.gif)
-
----
-### Les solutions 
 
 ---
 ### Les solutions
@@ -105,6 +102,7 @@ Mai 2017
 - <span class="fragment">Serveur/Client</span>
 - <span class="fragment">State en YAML </span>
 - <span class="fragment">Apache 2.0</span>
+- <span class="fragment">Pas interface graphique officiel</span>
 +++
 ### Virtualisation Vs Conteneurs
 
@@ -112,9 +110,11 @@ Mai 2017
 
 +++
 ### OpenShift 
-
-
-
+- <span class="fragment">Orchestration de conteneur</span>
+- <span class="fragment">Red Hat</span>
+- <span class="fragment">Go</span>
+- <span class="fragment">Systeme aliant Kubernetes et Docker </span>
+- <span class="fragment">Apache 2.0</span>
 ---
 
 ### Les critères de comparaison 
@@ -196,10 +196,26 @@ Mai 2017
     <td>Serveur</td>
     <td>Apache 2.0</td>
     <td>Docker Hub</td>
-    <td>/</td>
+    <td>Go</td>
     <td>Dockerfile</td>
     <td>DSL</td>
   </tr>
 </table>
++++
+
+### Utilisation
+Ansible et SaltStack pour des petites entreprises 
+
+OpenShift peut facilement et rapidement crée des conteneur pour des enviroement de test
+
+
+
+---
+
+
+### Prochaine étapes 
+
+- <span class="fragment">Reprendre chaque logiciel et exploiter toute leur puissance</span>
+- <span class="fragment">Se familiarisé plus avec Docker/OpenShitf </span>
 
 

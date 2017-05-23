@@ -64,6 +64,9 @@ end
 +++
 ### Chef
 <img class="plain" data-src="chef_repr.png"/>
+<span class="fragment">Workstation : machine admin </span>
+<span class="fragment">Serveur Chef </span>
+<span class="fragment">Node : machine cible </span>
 
 +++
 ### Puppet

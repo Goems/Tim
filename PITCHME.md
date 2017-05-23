@@ -131,7 +131,7 @@ Mai 2017
     <td>Forge</td>
     <td>Ruby</td>
     <td>Manifest</td>
-    <td>RudyDSL</td>
+    <td>RubyDSL</td>
   </tr>
     <tr>
     <td>Chef</td>
@@ -143,7 +143,7 @@ Mai 2017
     <td>Supermarket</td>
     <td>Ruby, Erlang</td>
     <td>Recipe</td>
-    <td>RudyDSL</td>
+    <td>RubyDSL</td>
   </tr>
     <tr>
     <td>Ansible</td>

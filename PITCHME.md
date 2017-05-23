@@ -34,23 +34,11 @@ Mai 2017
 - <span class="fragment">OpenShift</span>
 
 +++
-### Puppet
-
-- <span class="fragment">Puppet Labs</span>
-- <span class="fragment">2003</span>
-- <span class="fragment">Ruby</span>
-- <span class="fragment">Serveur/Client</span>
-- <span class="fragment">SSL</span>
-- <span class="fragment">Manifest en RubyDSL</span>
-- <span class="fragment">Apache 2.0</span>
-
-+++
 ### Chef
 - <span class="fragment">Opscode</span>
 - <span class="fragment">2009</span>
 - <span class="fragment">Ruby</span>
 - <span class="fragment">Serveur/Client</span>
-- <span class="fragment">SSH</span>
 - <span class="fragment">Recipes en RubyDSL</span>
 - <span class="fragment">Apache 2.0</span>
 +++
@@ -58,12 +46,22 @@ Mai 2017
 ![Image](chef_repr.png)
 
 +++
+### Puppet
+
+- <span class="fragment">Puppet Labs</span>
+- <span class="fragment">2003</span>
+- <span class="fragment">Ruby</span>
+- <span class="fragment">Serveur/Client</span>
+- <span class="fragment">Manifest en RubyDSL</span>
+- <span class="fragment">Apache 2.0</span>
+
++++
+
 ### Ansible
 - <span class="fragment">Ansible/Red Hat</span>
 - <span class="fragment">2012</span>
 - <span class="fragment">Python</span>
 - <span class="fragment">Client</span>
-- <span class="fragment">SSH</span>
 - <span class="fragment">Playbook en YAML</span>
 - <span class="fragment">GNU</span>
 +++
@@ -87,7 +85,7 @@ Mai 2017
 
 ### Virtualisation Vs Conteneurs
 
-![Image](CaptureDocker1.png)
+!Image(CaptureDocker1.png)
 
 +++
 ### OpenShift V3 
@@ -108,6 +106,10 @@ Mai 2017
 - <span class="fragment">Fichier de travail</span>
 
 +++
+
+
++++
+### Résumé 
 <table style="font-size: 40%;">
   <tr>
     <th>Solutions</th>
@@ -128,7 +130,7 @@ Mai 2017
     <td>°°°</td>
     <td>Serveur/Client</td>
     <td>Apache 2.0</td>
-    <td>Forge</td>
+    <td>Puppet Forge</td>
     <td>Ruby</td>
     <td>Manifest</td>
     <td>RubyDSL</td>
@@ -140,7 +142,7 @@ Mai 2017
     <td>°°°</td>
     <td>Serveur/Client</td>
     <td>Apache 2.0</td>
-    <td>Supermarket</td>
+    <td>Chef Supermarket</td>
     <td>Ruby, Erlang</td>
     <td>Recipe</td>
     <td>RubyDSL</td>
@@ -152,7 +154,7 @@ Mai 2017
     <td>°°°</td>
     <td>Client</td>
     <td>GNU</td>
-    <td>Galaxy</td>
+    <td>Ansible Galaxy</td>
     <td>Python, PowerShell</td>
     <td>Playbook</td>
     <td>YAML</td>
@@ -164,7 +166,7 @@ Mai 2017
     <td>°°°</td>
     <td>Serveur/Client</td>
     <td>Apache 2.0</td>
-    <td>Project</td>
+    <td>SaltStack Project</td>
     <td>Python</td>
     <td>State</td>
     <td>YAML</td>
@@ -172,7 +174,7 @@ Mai 2017
     <tr>
     <td>OpenShift</td>
     <td>°°°°</td>
-    <td>°°°</td>
+    <td>°°°°</td>
     <td>°°°°</td>
     <td>Serveur</td>
     <td>Apache 2.0</td>
@@ -184,11 +186,21 @@ Mai 2017
 </table>
 
 ---
-
-
 ### Prochaine étapes 
 
 - <span class="fragment">Reprendre chaque logiciel et exploiter toute leur puissance</span>
 - <span class="fragment">Se familiarisé plus avec Docker/OpenShitf </span>
+---
 
+### liens
+
+- https://www.ansible.com
+- https://puppet.com/fr
+- https://www.chef.io/chef/
+- https://saltstack.com
+- https://www.openshift.com
+
+---
+
+### Questions? 
 

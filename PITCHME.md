@@ -43,31 +43,6 @@ Mai 2017
 - <span class="fragment">SSL</span>
 - <span class="fragment">Manifest en RubyDSL</span>
 - <span class="fragment">Apache 2.0</span>
-+++
-#### OpenSource vs Entreprise
-<table style="font-size: 50%;">
-  <tr>
-    <th></th>
-    <th>OpenSource</th>
-    <th>Entreprise</th>
-  </tr>
-  <tr>
-    <td>Interface graphique</td>
-    <td>No</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Permision des utilisateurs</td>
-    <td>No</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>Prix</td>
-    <td>0 euro</td>
-    <td>~100 euro standard
-    ~150 euro prenium</td>
-  </tr>
-</table>
 
 +++
 ### Chef
@@ -102,14 +77,20 @@ Mai 2017
 - <span class="fragment">Serveur/Client</span>
 - <span class="fragment">State en YAML </span>
 - <span class="fragment">Apache 2.0</span>
-- <span class="fragment">Pas interface graphique officiel</span>
 +++
+### Technologie conteneur 
+- <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
+- <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
+- <span class="fragment"> Permet un déploiment très facile <span>
+
++++
+
 ### Virtualisation Vs Conteneurs
 
 ![Image](CaptureDocker1.png)
 
 +++
-### OpenShift 
+### OpenShift V3 
 - <span class="fragment">Orchestration de conteneur</span>
 - <span class="fragment">Red Hat</span>
 - <span class="fragment">Go</span>
@@ -124,7 +105,7 @@ Mai 2017
 - <span class="fragment">Architecture</span>
 - <span class="fragment">Repositerie</span>
 - <span class="fragment">Langage</span>
-- <span class="fragment">Plateformes supportées</span>
+- <span class="fragment">Fichier de travail</span>
 
 +++
 <table style="font-size: 40%;">
@@ -201,14 +182,6 @@ Mai 2017
     <td>DSL</td>
   </tr>
 </table>
-+++
-
-### Utilisation
-Ansible et SaltStack pour des petites entreprises 
-
-OpenShift peut facilement et rapidement crée des conteneur pour des enviroement de test
-
-
 
 ---
 

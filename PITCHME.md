@@ -85,7 +85,7 @@ Mai 2017
 
 ### Virtualisation Vs Conteneurs
 
-<img data-src="CaptureDocker1.png"/>
+<img class="plain" data-src="CaptureDocker1.png"/>
 +++
 !Image(CaptureDocker1.png)
 

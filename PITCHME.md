@@ -79,12 +79,14 @@ Mai 2017
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
 - <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
-- <span class="fragment"> Permet un déploiment très facile <span>
+- <span class="fragment"> Permet un déploiment très facile </span>
 
 +++
 
 ### Virtualisation Vs Conteneurs
 
+<img data-src="CaptureDocker1.png"/>
++++
 !Image(CaptureDocker1.png)
 
 +++
@@ -159,7 +161,7 @@ Mai 2017
     <th>Scalable</th>
     <th>Archicteture</th>
     <th>Licence</th>
-    <th>Repositeries</th>
+    <th>Repositeries officiel</th>
     <th>Ecrit en</th>
     <th>Fichier de travail</th>
     <th>Language fichier </th>
@@ -194,7 +196,7 @@ Mai 2017
     <td>°°°</td>
     <td>°°°</td>
     <td>Client</td>
-    <td>GNU</td>
+    <td>GPL-3.0</td>
     <td>Ansible Galaxy</td>
     <td>Python, PowerShell</td>
     <td>Playbook</td>

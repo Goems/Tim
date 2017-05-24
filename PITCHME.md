@@ -154,6 +154,7 @@ nginx:
       - pkg: nginx
       - file: /etc/nginx/nginx.conf
 ```
++++
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
 - <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>

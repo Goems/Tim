@@ -23,6 +23,7 @@ Mai 2017
 ### Exemple
 <img class="plain" data-src="MonNginxDemo.png"/>
 ---
+### Solution
 <img class="plain" data-src="Solution.png"/>
 +++
 ### Les solutions

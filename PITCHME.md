@@ -22,7 +22,7 @@ Mai 2017
 - <span class="fragment"> Le déploiment d'application est compliquée </span>
 +++
 ### Exemple
-<img class="plain" data-src="LAMP%20Demo.png"/>
+<img class="plain" data-src="MonNginxDemo.png"/>
 
 ---
 ### Les solutions
@@ -82,7 +82,7 @@ end
 +++
 
 ### Ansible
-- <span class="fragment">Ansible/Red Hat</span>
+- <span class="fragment">Red Hat</span>
 - <span class="fragment">2012</span>
 - <span class="fragment">Python</span>
 - <span class="fragment">Client</span>
@@ -103,7 +103,7 @@ end
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
 - <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
-- <span class="fragment"> Permet un déploiment très facile </span>
+- <span class="fragment">Permet un déploiment très facile </span>
 
 +++
 
@@ -112,6 +112,7 @@ end
 <img class="plain" data-src="CaptureDocker1.png"/>
 +++
 ### OpenShift V3 
+- <span class="fragment">PAAS</span>
 - <span class="fragment">Orchestration de conteneur</span>
 - <span class="fragment">Red Hat</span>
 - <span class="fragment">Go</span>

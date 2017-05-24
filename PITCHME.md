@@ -8,7 +8,7 @@ Sous la direction de Sébastien DUPONT
 Mai 2017
 
 ---
-## Remerciment
+## Remerciements
 ---
 ## Sommaire
  - <span class ="fragment">Présentation de la problématique</span>  
@@ -16,15 +16,15 @@ Mai 2017
  - <span class ="fragment">Analyse comparative des solutions </span>
 
 ---
-
 ### La problématique ?
-- <span class="fragment"> L'installation, la configuration et la maintenances des serveurs et/ou machine est très complexe </span>
-- <span class="fragment"> Le déploiment d'application est compliquée </span>
+- <span class="fragment"> L'installation, la configuration et la maintenance des serveurs et/ou machines est très complexe </span>
+- <span class="fragment"> Le déploiement d'application est compliquée </span>
 +++
 ### Exemple
 <img class="plain" data-src="MonNginxDemo.png"/>
-
 ---
+<img class="plain" data-src="Solution.png"/>
++++
 ### Les solutions
 
 - <span class="fragment">Chef</span>
@@ -45,7 +45,7 @@ Mai 2017
 +++
 ### Cookbooks
 - <span class="fragment">Dossier</span>
-- <span class="fragment">Recettes</span>
+- <span class="fragment">Recettes en RubyDSL</span>
 - <span class="fragment">Templates</span>
 
 +++
@@ -78,9 +78,30 @@ end
 - <span class="fragment">Serveur/Client</span>
 - <span class="fragment">Manifest en RubyDSL</span>
 - <span class="fragment">Apache 2.0</span>
++++
+### Manifest
+
+```ruby
+node 'puppetagent1.int.cetic.be' {
+include util
+}
+
+class util {
+        package { 'tree':
+                ensure => installed
+        }
+        package { 'mc':
+                ensure => installed
+        }
+        package { 'nano':
+                ensure => installed
+        }
+
+}
+
+``` 
 
 +++
-
 ### Ansible
 - <span class="fragment">Red Hat</span>
 - <span class="fragment">2012</span>
@@ -88,6 +109,27 @@ end
 - <span class="fragment">Client</span>
 - <span class="fragment">Playbook en YAML</span>
 - <span class="fragment">GPL-3.0</span>
++++
+### Playbook
+
+```yaml
+---
+- hosts: linode
+  remote_user: yourusername
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: "Install Apache, MySQL, and PHP5"
+      apt: name={{ item }} state=present
+      with_items:
+        - apache2
+        - mysql-server
+        - python-mysqldb
+        - php5
+        - php-pear
+        - php5-mysql
+```
+
 +++
 ### Ansible Tower
 <img class="plain" data-src="tower-screenshot-blog2.png"/>
@@ -100,6 +142,18 @@ end
 - <span class="fragment">State en YAML </span>
 - <span class="fragment">Apache 2.0</span>
 +++
+
+### State
+```yaml
+nginx:
+  pkg:
+    - installed
+  service:
+    - running
+    - watch:
+      - pkg: nginx
+      - file: /etc/nginx/nginx.conf
+```
 ### Technologie conteneur 
 - <span class="fragment">Isolement d'un environement en utilisant les resources de la machine hote</span>
 - <span class="fragment">Excution de logiciel en toute transparance sur n'importe quel environement</span>
@@ -108,7 +162,6 @@ end
 +++
 
 ### Virtualisation Vs Conteneurs
-
 <img class="plain" data-src="CaptureDocker1.png"/>
 +++
 ### OpenShift V3 
@@ -251,10 +304,10 @@ end
 </table>
 
 ---
-### Prochaine étapes 
+### Prochaines étapes 
 
 - <span class="fragment">Reprendre chaque logiciel et exploiter toute leur puissance</span>
-- <span class="fragment">Se familiarisé plus avec Docker/OpenShitf </span>
+- <span class="fragment">Se familiariser plus avec Docker/OpenShitf </span>
 ---
 
 ### liens

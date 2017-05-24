@@ -21,6 +21,7 @@ Mai 2017
 - <span class="fragment"> L'installation, la configuration et la maintenances des serveurs et/ou machine est très complexe </span>
 - <span class="fragment"> Le déploiment d'application est compliquée </span>
 +++
+### Exemple
 <img class="plain" data-src="LAMP%20Demo.png"/>
 
 ---

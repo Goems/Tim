@@ -114,7 +114,6 @@ class util {
 ### Playbook
 
 ```yaml
----
 - hosts: linode
   remote_user: yourusername
   become: yes
